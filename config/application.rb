@@ -18,5 +18,11 @@ module InstaApp
 
     #デフォルトテンプレートエンジンをslimに変更
     config.generators.template_engine = :slim
+
+    config.generators do |g|
+      g.skip_routes true
+      g.assets false
+      g.helper false
+    end
   end
 end
