@@ -1,5 +1,12 @@
 {
   "name": "insta-app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap-material-design": "^4.1.3"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aki537/insuta-app.git",
+  "author": "aki158 <hideponpon1931@gmail.com>",
+  "license": "MIT"
 }
