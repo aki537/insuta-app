@@ -16,7 +16,7 @@ module InstaApp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
-    #デフォルトテンプレートエンジンをslimに変更
+    # デフォルトテンプレートエンジンをslimに変更
     config.generators.template_engine = :slim
 
     # Don't generate system test files.
@@ -33,6 +33,6 @@ module InstaApp
     config.active_record.default_timezone = :local
 
     config.i18n.default_locale = :ja
-    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
+    config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.{rb,yml}').to_s]
   end
 end

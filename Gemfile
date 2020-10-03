@@ -38,7 +38,6 @@ gem 'redis-rails'
 gem 'rails-i18n'
 gem 'annotate'
 
-
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -55,11 +54,11 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  #導入したgem
+  # 導入したgem
   gem 'rubocop'
   gem 'rubocop-rails'
   gem 'dotenv-rails'
-  #デバック関係のgem
+  # デバック関係のgem
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry-byebug'
