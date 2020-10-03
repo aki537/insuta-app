@@ -26,6 +26,7 @@ module InstaApp
       g.skip_routes true
       g.assets false
       g.helper false
+      g.test_framework false
     end
 
     config.time_zone = 'Tokyo'
