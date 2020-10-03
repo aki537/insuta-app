@@ -58,6 +58,7 @@ group :development do
   #導入したgem
   gem 'rubocop'
   gem 'rubocop-rails'
+  gem 'dotenv-rails'
   #デバック関係のgem
   gem 'better_errors'
   gem 'binding_of_caller'
